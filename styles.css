@@ -1,0 +1,221 @@
+nav, header, footer {
+   display: block;
+}
+
+body {
+    margin: 0;
+    line-height: 1;
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    background: #eee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    min-height: 16px;
+    text-align: center;
+    color: #666;
+    padding: 14px;
+}
+
+ul.topnav li a:hover {
+    background: blue;
+    color: white;
+} 
+
+/* Header */
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+#section-1 {
+    background: linear-gradient(#076DFF, #65a5ff);
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1.first-col {
+    margin-left: 10%;
+
+}
+
+
+h1.large {
+    font-size: 56px;
+    line-height: 70px;
+    margin: 0;
+    color: #fff;
+}
+
+div.left2 h2 {
+    color: #fff;
+}
+
+input[type= "text"] {
+    width: 400px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+div iframe {
+    margin-left: 20%;
+    width: 300px;
+}
+
+header {
+    font-size: 25px;
+    text-align: center;
+}
+
+.overall {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+}
+
+h2.chat {
+    margin-left: 0%;
+}
+
+div.overall div {
+    width: 300px;
+    margin-left: 60px;
+    text-align: center;
+    border: 1px solid rgb(97, 95, 95);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer {
+    width: 100%;
+    margin: 0;
+    align-items: center;
+}
+
+button {
+    display: block;
+    background: blue;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    margin-left: 45%;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+
+    ul.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    .input[type= "text"] {
+        width: 200px;
+    }
+
+    .col-1 {
+        width: 100%;
+    }
+
+    div iframe {
+        width: 95%;
+        display: block;
+        margin-left: 0;
+        margin-top: 15px;
+        padding: 20px;
+    }
+
+
+
+    
+
+
+}
+
+
+

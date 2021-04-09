@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My porfolio website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul class="topnav" id="new-class">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#News">News</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li class="topnav-right"><a href="#SignUp">Sign Up</a></li>
+            <li class="topnav-right"><a href="#SignIn">Sign In</a></li>
+            <li class="dropdownIcon"><a href="javascript: void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="container" id="section-1">
+        <div class="row">
+            <div class="col-1 first-col">
+                <div class="left">
+                    <h1 class="large">Good Radness</h1>
+                    <h1 class="large">For Developers</h1>
+                </div>
+                <form>
+                    <div class="left2">
+                        <h2>Username</h2>
+                        <input class="inputbox" type="text" name="Username" placeholder="Username">
+                        <h2>Password</h2>
+                        <input class="inputbox" type="text" name="Password" placeholder="Password  ">
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-1">
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EceJQ05KTf4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+        
+    <header>
+        <h1>The standards of Awesome</h1>
+    </header> <br><br>
+
+    <div class="overall">
+        <div class="firstman">
+            <h2 class="chat">Chat with Me</h2>
+            <p>
+                Coding is one of the most important skill<br> to learn.
+                 Knowing how to<br> code assure you a good future.
+            </p>
+        </div>
+
+        <div>
+            <h2 class="chat">Learn to Code</h2>
+            <p>
+                Coding is one of the most important skill<br> to learn.
+                 Knowing how to code<br> assure you a good future.
+            </p>
+        </div>
+            
+        <div>
+            <h2 class="chat">Build an Empire</h2>
+            <p>
+                Coding is one of the most important skill<br> to learn.
+                 Knowing how to code <br>assure you a good future.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <button>Learn More</button>
+    </footer>
+
+
+
+
+
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("new-class");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            }
+            else {
+                x.className = "topnav"
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
